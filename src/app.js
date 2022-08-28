@@ -1,5 +1,5 @@
 const express = require("express");
-const morgan = require("morgan");
+// const morgan = require("morgan");
 const languageRoutes = require("./routes/user_routes.js");
 
 const app = express();
@@ -9,7 +9,7 @@ const app = express();
 app.set("port", process.env.PORT || 4000);
 
 //------------Middlewares--------------//
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 app.use(express.json());
 
 //----------- Routes -----------------//
