@@ -1,0 +1,18 @@
+CREATE TABLE `customer-solutions-db`.`test_table` (
+    `id`  INT NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(100) NULL,
+    `email` VARCHAR(100) NULL,
+    `job` VARCHAR(100) NULL,
+    `position` VARCHAR(100) NULL,
+    `employee_number` VARCHAR(100) NULL,
+    `sector` VARCHAR(100) NULL,
+    `experience` VARCHAR(100) NULL,
+    `country` VARCHAR(100) NULL,
+    `city` VARCHAR(100) NULL,
+    `customers` INT NULL,
+    `people` INT NULL,
+    `process` INT NULL,
+    `strategy` INT NULL,
+    `index` INT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
