@@ -9,13 +9,16 @@
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
     "server": "nodemon src/index.js",
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hernan1ro/customer-solutions-api.git"
   },
-  "keywords": [],
+  "keywords": [
+    "customer-solutions",
+    "heroku"
+  ],
   "author": "Hernán Mercado",
   "license": "ISC",
   "bugs": {
