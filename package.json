@@ -1,0 +1,34 @@
+{
+  "name": "customer-solutions-api",
+  "version": "1.0.0",
+  "description": "api for customer solutions db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hernan1ro/customer-solutions-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hernan1ro/customer-solutions-api/issues"
+  },
+  "homepage": "https://github.com/Hernan1ro/customer-solutions-api#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "promise-mysql": "^5.2.0"
+  }
+}
