@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "api for customer solutions db",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
-    "server": "nodemon src/index.js"
+    "server": "nodemon src/index.js",
+    "start": "",
+    "build": ""
   },
   "repository": {
     "type": "git",
