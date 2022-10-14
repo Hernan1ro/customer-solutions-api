@@ -16,6 +16,7 @@ const getUsers = async (req, res) => {
 const addUser = async (req, res) => {
   try {
     const {
+      date,
       name,
       email,
       job,
@@ -63,6 +64,7 @@ const addUser = async (req, res) => {
     } = req.body;
 
     if (
+      date === undefined ||
       name === undefined ||
       email === undefined ||
       job === undefined ||
@@ -111,6 +113,7 @@ const addUser = async (req, res) => {
       res.status(400).json({ message: "Bad request. Please fill all fields" });
     }
     const user = {
+      date,
       name,
       email,
       job,

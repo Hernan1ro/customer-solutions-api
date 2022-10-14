@@ -56,3 +56,9 @@ ADD COLUMN `pregunta_29` VARCHAR(250) NOT NULL AFTER `pregunta_28`;
 -- deleting current test data from the table ---
 
 DELETE FROM user_db 
+
+
+-- adding date column to the data base --
+
+ALTER TABLE `customer-solutions-db`.`user_db` 
+ADD COLUMN `date` VARCHAR(45) NOT NULL AFTER `id`;
